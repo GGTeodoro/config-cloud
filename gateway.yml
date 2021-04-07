@@ -21,7 +21,7 @@ spring:
         - id: order-service
           uri: lb://ORDER-SERVICE
           predicates:
-            - Path=/produtos/**
+            - Path=/carrinho/**
         - id: ecommercespring
           uri: lb://ECOMMERCESPRING
           predicates:
